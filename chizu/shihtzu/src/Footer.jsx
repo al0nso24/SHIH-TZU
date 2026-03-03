@@ -10,7 +10,7 @@ export default function Footer (){
     // e.preventDefault() es para que no se recargue la página al enviar el formulario.
     const registrarPerro = (e) => {
         e.preventDefault();
-        Axios.post("http://localhost:3002/agregarPerrito", {nombre}).then((res)=>{
+        Axios.post("https://shih-tzu-production.up.railway.app/agregarPerrito", {nombre}).then((res)=>{
             const Toast = Swal.mixin({
                 toast: true,
                 position: "top-end",
