@@ -29,3 +29,7 @@ app.post("/agregarPerrito", (req, res)=>{
 
 //Para iniciar el puerto:
 const puerto = process.env.PORT || 3002;
+
+app.listen(puerto, () => {
+    console.log(`Servidor corriendo en el puerto ${puerto}`);
+});
