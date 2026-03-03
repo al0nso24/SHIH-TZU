@@ -5,10 +5,11 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "alonso_24122005_",
-    database: "SHIZU"
+    host: process.env.MYSQLHOST,
+    user: process.env.MYSQLUSER,
+    password: process.env.MYSQLPASSWORD,
+    database: process.env.MYSQLDATABASE,
+    port: process.env.MYSQLPORT
 })
 
 
@@ -27,7 +28,4 @@ app.post("/agregarPerrito", (req, res)=>{
 
 
 //Para iniciar el puerto:
-const puerto = 3002;
-app.listen(puerto, ()=>{
-    console.log("Puerto activado.")
-})
+const puerto = process.env.PORT || 3002;
