@@ -19,7 +19,7 @@ const db = mysql.createPool({
 //Agregar perrito a la base de datos:
 app.post("/agregarPerrito", (req, res)=>{
     const {nombre} = req.body; //El campo.
-    db.query('INSERT INTO perrito (nombre) VALUES(?)', [nombre], (err, results)=>{
+    db.query('INSERT INTO perro (nombre) VALUES(?)', [nombre], (err, results)=>{
         if(err){
             console.error(err);
             res.status(500).json({error: "Error en el servidor."})
