@@ -175,9 +175,16 @@ export default function Alimentacion() {
                         Espinaca
                     </h2>
                     <ul className='list-disc list-outside pl-10 mt-4'>
-                        <li>Los nutrientes que tiene la espinaca son buenas para diversas funciones corporales (formación de glóbulos rojos, salud ósea y dental), función muscular y nerviosa, y funciones inmunitarias.</li>
                         <li>
-                            Las espinacas son una fuente de fibra, que puede ayudar a regular el tránsito instestinal y prevenir el estreñimiento en los perritos.
+                            Los nutrientes que tiene la espinaca son buenas para 
+                            diversas funciones corporales (formación de glóbulos rojos, 
+                            salud ósea y dental), función muscular y nerviosa, y 
+                            funciones inmunitarias.
+                        </li>
+                        <li>
+                            La espinaca es una fuente de fibra, que puede ayudar a 
+                            regular el tránsito instestinal y prevenir el estreñimiento 
+                            en los perritos.
                         </li>
                         <li>
                             Se recomienda no darle espinaca a perritos con problemas de 

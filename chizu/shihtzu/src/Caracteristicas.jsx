@@ -52,7 +52,7 @@ export default function Caracteristicas (){
                             <div class="px-6 py-4">
                                 <div class="font-bold text-xl mb-2">Cabeza y hocico</div>
                                 <p class="text-gray-700 text-base">
-                                    Su cabez es ancha y redonda con ojos redondos y
+                                    Su cabeza es ancha y redonda con ojos redondos y
                                     expresivos.
                                 </p>
                             </div>
@@ -144,9 +144,7 @@ export default function Caracteristicas (){
                             <div class="px-6 py-4">
                                 <div class="font-bold text-xl mb-2">Aseo</div>
                                 <p class="text-gray-700 text-base">
-                                    Son perritos que buscan atención y disfrutan de
-                                    interactuar con las personas, y tienen un carácter 
-                                    alegre y juguetón.
+                                    Debido a su pelaje largo, requieren un aseo regular, incluyendo cepillados frecuentes y baños para mantener su pelaje en buen estado y libre de enredos.
                                 </p>
                             </div>
                             <div class="px-6 pt-4 pb-2">
